@@ -637,6 +637,7 @@ form .btn2{
 @media only screen and (max-width: 600px){
 
     nav ul .fa-sharp{
+        display: block;
         color: white;
         position: absolute;
         top: 25px;
@@ -646,6 +647,7 @@ form .btn2{
     }
     
     nav .fa-solid{
+        display: block;
         color: white;
         position: absolute;
         top: 25px;
