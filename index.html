@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aniket Bhatia - Portfolio Website</title>
+        <link rel = "stylesheet" href = "style.css">
+        <script src="https://kit.fontawesome.com/ea09b67fd3.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <section id = "header">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
+
+            
+    <div class = "container" >  
+        <div class = "main">
+            <div class="infoContainer">
+                <div class="devinfo">
+                    <div class = "hello"> Hi I am </div>
+                    <div class = "name"> Aniket Bhatia </div>
+                    <div class = "about"> Developer </div>
+                    <div class = "moreabout"> Graphic Designer</div>
+                    <div class = "buttons">
+                        <button> Download CV </button>
+                        <button> Contact Me </button>
+                    </div>
+                </div>
+                <div class="devPic"> <img src = "MyImage.jpg" alt ="Aniket Bhatia"> </div>
+
+            </div>
+        </div>
+        </div>
+
+        <header>
+            <a href = "#" class = "logo"> </a>
+                <nav>
+            <ul id = "sidemenu">
+                <!-- <li> <a href ="#"> Home</a></li>
+                <li> <a href ="#"> About</a></li> -->
+                <li class = "link"><a class = "active" href = "#header">Home</a></li>            
+                <li class = "link"><a href = "#portfolio">Projects</a></li>
+                <li class = "link"><a href = "#copyright">CV</a></li>
+                <li class = "link"><a href = "#contact">Contact</a></li>
+                <i class="fa-sharp fa-solid fa-square-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i> 
+           
+        </nav>
+        </header>
+        <section class = "banner"> </section>
+
+        <!-----------------about ------------------------>
+        <div id = "about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1"><img src="MyImage.jpg" alt="image"></div>                        
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Cupiditate ea praesentium quaerat modi dolorum velit esse facere sunt accusantium, 
+                            eius labore, soluta beatae, reprehenderit inventore quae nemo consectetur voluptatem minus.</p>
+
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                            </div>
+                            <div class="tab-contents active-tab" id = "skills">
+                                <ul>
+                                    <li><span2>UI/UX</span2><br> Designing Web/App Interfaces</li>
+                                    <li><span2>Web Development</span2><br> Designing Web app Development</li>   
+                                    <li><span2>App Development</span2><br> Designing Building Android/ios apps</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id = "experience">
+                                <ul>
+                                    <li><span2>2021 - Current</span2><br> UI/UX Design Training at ET </li>
+                                    <li><span2>2019 - 2021 </span2><br> Team Lead at Stratup</li>   
+                                    <li><span2>2017-2019</span2><br> Internship at ekart</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id = "education">
+                                <ul>
+                                    <li><span2>2016</span2><br> UI/UX DESIGN TRAINING</li>
+                                    <li><span2>2016</span2><br> MBA</li>   
+                                    <li><span2>2014</span2><br> BBA</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ------------- portfolio ------------------->
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class = "sub-title"> My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="photo.jpeg">
+                        <div class = "layer">
+                            <h3>Social Media App</h3>
+                            <p>The app connects you to the talented people around the world.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="photo.jpeg">
+                        <div class = "layer">
+                            <h3>Music App</h3>
+                            <p>The app connects you to the talented people around the world.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="work">
+                        <img src="photo.jpeg">
+                        <div class = "layer">
+                            <h3>Online Shopping  App</h3>
+                            <p>The app connects you to the talented people around the world.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href = "#" class = "btn"> See More</a>
+            </div>
+
+        </div>
+
+
+
+
+        <!-- --------------------- contact --------------------->
+        <div id = "contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class = "sub-title">Contact Me</h1>
+                        <p> <i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                        <p> <i class="fa-solid fa-square-phone"></i> 0123456789</p>
+                        <div class="social-icons">
+                            <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href = "filepath.pdf" download class = "btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name ="submit-to-google-sheet">
+                            <input type = "text" name = "Name" placeholder="Your Name" required>
+                            <input type = "email" name = "Email" placeholder="Your Email" required>
+                            <textarea name = "Message" rows = "6" placeholder = "Your Message"></textarea>
+                            <button type = "submit" class = "btn btn2"> Submit </button>
+                        </form>
+                        <span3 id = "msg"> </span3>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>
+                    Copyright Aniket . Made with <i class="fa-solid fa-heart"></i>
+                </p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script type = "text/javascript">
+            window.addEventListener("scroll", function(){
+                var header = document.querySelector("header");
+                header.classList.toggle("sticky", window.scrollY > 0);
+            })
+        </script>
+    
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");                
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");                
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+      
+
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxTqLQ2jkeHBJ5B1XXA2S_896AjTpc81XyquTNTDLpxVVcmZKuxa0-di0p5ztyv-JNn/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-150px";
+        }
+    </script>
+
+    </body>
+</html>
